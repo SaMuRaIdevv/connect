@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.btn:hover {
+  color: #fff !important;
+}
+
+.navbar-nav .btn {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.navbar {
+  background: #fff;
+}
+
+main {
+  background-color: #f2f4f7;
+  padding-top: 8rem !important;
+  padding-bottom: 4rem;
+}
+
+.cards {
+  width: 32% !important;
+  border-radius: 8px;
+}
+
+.first-bg {
+  background-color: #fff2e5;
+}
+
+.second-bg {
+  background-color: #f8f9fa;
+}
+
+.third-bg {
+  background-color: #f0f5f9;
+}
+
+.features,
+.reviews, 
+.bg-gray,
+.faq {
+  background: #f0f5f9;
+}
+
+.img-select {
+  width: 100%;
+}
+
+.weight {
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  width: 7rem;
+}
+
+.width{
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .cards {
+    width: 100% !important;
+  }
+}  
